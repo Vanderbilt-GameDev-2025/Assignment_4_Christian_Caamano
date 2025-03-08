@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://den33acm2lo5m"]
 
-[ext_resource type="Shader" path="res://FirstShader.gdshader" id="1_5bap7"]
+[ext_resource type="Shader" path="res://SecondShader.gdshader" id="1_1ymyr"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_5scey"]
 
@@ -15,8 +15,8 @@ noise = SubResource("FastNoiseLite_rs0ns")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1uhj0"]
 render_priority = 0
-shader = ExtResource("1_5bap7")
-shader_parameter/height_scale = 0.5
+shader = ExtResource("1_1ymyr")
+shader_parameter/height_scale = 0.14
 shader_parameter/noise = SubResource("NoiseTexture2D_34moo")
 shader_parameter/normalmap = SubResource("NoiseTexture2D_wgvvu")
 
@@ -28,7 +28,9 @@ subdivide_depth = 32
 [node name="Node3D" type="Node3D"]
 
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0370214, 0.524561, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0370214, 0.438821, 0)
+omni_range = 1.50415
+omni_attenuation = 0.359
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("PlaneMesh_muatk")
