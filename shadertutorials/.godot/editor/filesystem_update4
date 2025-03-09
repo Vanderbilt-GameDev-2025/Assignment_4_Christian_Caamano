@@ -1,4 +1,3 @@
 res://Main.tscn
-res://FirstShader.gdshader
 res://SecondShader.gdshader
-res://RenderingDevice.gd
+res://FirstShader.gdshader
