@@ -1,0 +1,13 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1741496779
+icon.svg::CompressedTexture2D::1089772617392744597::1741488328::1741488331::1::::<><>::
+::res://Scenes/::1741496779
+Main.tscn::PackedScene::1590225770109752576::1741496821::0::1::::<><>::res://Scripts/GameManager.cs<>uid://0ewcyb5idqny::::res://Scenes/Player.tscn<>res://Shaders/Decay.gdshader
+Player.tscn::PackedScene::1764319210874818858::1741490300::0::1::::<><>::res://Scripts/PlayerController.cs
+spikydyson.glb::PackedScene::1429612494745657802::1741490239::1741490899::1::::<><>::
+World.tscn::PackedScene::2004735683418754852::1741496821::0::1::::<><>::res://Shaders/Decay.gdshader
+::res://Scripts/::1741490334
+GameManager.cs::CSharpScript::-1::1741490334::0::1::::<>Node<>::
+PlayerController.cs::CSharpScript::-1::1741496710::0::1::::<>CharacterBody3D<>::
+::res://Shaders/::1741496779
+Decay.gdshader::Shader::-1::1741496821::0::1::::<><>::

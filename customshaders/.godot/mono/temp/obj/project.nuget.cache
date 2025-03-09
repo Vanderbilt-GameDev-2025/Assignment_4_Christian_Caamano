@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "G1BD0srfncQ=",
+  "success": true,
+  "projectFilePath": "/Users/christian/Desktop/ACTIVE_Local-Backup/docs/vanderbilt/College_Classes/CS_3891/Assignment_4_Christian_Caamano/customshaders/CustomShaders.csproj",
+  "expectedPackageFiles": [
+    "/Users/christian/.nuget/packages/godot.sourcegenerators/4.3.0/godot.sourcegenerators.4.3.0.nupkg.sha512",
+    "/Users/christian/.nuget/packages/godotsharp/4.3.0/godotsharp.4.3.0.nupkg.sha512",
+    "/Users/christian/.nuget/packages/godotsharpeditor/4.3.0/godotsharpeditor.4.3.0.nupkg.sha512",
+    "/Users/christian/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/christian/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

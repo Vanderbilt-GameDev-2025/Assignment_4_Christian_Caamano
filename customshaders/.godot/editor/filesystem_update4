@@ -1,0 +1,6 @@
+res://Scenes/Main.tscn
+res://Scripts/GameManager.cs
+res://Scripts/PlayerController.cs
+res://Scenes/World.tscn
+res://Shaders/DisplaceDissolve.gdshader
+res://Shaders/Decay.gdshader
