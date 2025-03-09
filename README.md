@@ -20,7 +20,10 @@ Instructor: Bobby Bodenheimer
 
 Shader name: DisplaceDissolve
 
-Description: This shader is a two-part Godot shader that consists of a vertex displace shader and a fragment dissolve shader. The vertex displace shader displaces the vertices by a particular amount and with a particular randomness factor, while the fragment dissolve shader produces a dissolve effect on the entire mesh, again with a particular adjustable amount.
+Description: This shader is a two-part Godot shader that consists of a vertex displace shader and a fragment dissolve shader. The vertex displace shader displaces the vertices by a particular amount and with a particular randomness factor, while the fragment dissolve shader produces a dissolve effect on the entire mesh, again with a particular adjustable amount. The displace and dissolve shaders are both set based on noise textures.
+
+Extra credit feature: interactivity
+When the left mouse button is pressed, the displace and dissolve amounts of the shader on the target mesh are increased. In this project, the target mesh is a Sun object, so pressing the mouse button gradually makes the sun decay.
 
 
 ## Testing
