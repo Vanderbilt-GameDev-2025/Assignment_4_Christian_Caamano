@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://den33acm2lo5m"]
+[gd_scene load_steps=9 format=3 uid="uid://den33acm2lo5m"]
 
 [ext_resource type="Shader" path="res://SecondShader.gdshader" id="1_1ymyr"]
+[ext_resource type="Script" path="res://RenderingDevice.gd" id="2_kd3ia"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_5scey"]
 
@@ -34,3 +35,6 @@ omni_attenuation = 0.359
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("PlaneMesh_muatk")
+
+[node name="Node3D" type="Node3D" parent="."]
+script = ExtResource("2_kd3ia")

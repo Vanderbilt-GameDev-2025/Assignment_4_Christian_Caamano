@@ -1,5 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741370737
-FirstShader.gdshader::Shader::-1::1741229271::0::1::::<><>::
+::res://::1741477233
+compute_example.glsl::RDShaderFile::1498724646293815319::1741477279::1741477287::1::::<><>::
+FirstShader.gdshader::Shader::-1::1741476909::0::1::::<><>::
 icon.svg::CompressedTexture2D::597663703254308864::1741135176::1741135179::1::::<><>::
-Main.tscn::PackedScene::7468604418132372424::1741150793::0::1::::<><>::res://FirstShader.gdshader
+Main.tscn::PackedScene::7468604418132372424::1741476909::0::1::::<><>::res://SecondShader.gdshader
+SecondShader.gdshader::Shader::-1::1741476909::0::1::::<><>::
